@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+}
+
+.navegar{
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+}
+
+.navegar .logo img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.navegar .links ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.navegar ul li a{
+    background-color: #000;
+    padding: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.navegar ul li a:hover{
+    color: blueviolet;
+    font-size: 20px;
+    text-shadow: 1px 5px 10px #000;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 100%;
+    width: ;
+}
+
+.sobre{
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+h2{
+    text-align:center;
+}
+
+.sobre p {
+    text-align: initial;
+}
+
+.profissionais{
+    text-align: center;
+}
+
+.profissionais .profissional{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 100px 0;
+
+}
+
+.profissionais .profissional img{
+    width: 70%;
+}
+
+frame{
+    margin: auto;
+    display: block;
+}
